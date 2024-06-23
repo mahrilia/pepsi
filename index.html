@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        </style>
+  </head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="logo">
+            </div>
+            <div class="menu">
+                <a href="" class="linkmenu">Home</a>
+                <a href="" class="linkmenu">Products</a>
+                <a href=""class="linkmenu">What's New</a>
+                <a href="" class="linkmenu">Newsletter</a>
+                <a href="" class="contato linkmenu">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="cta">
+            <h2>THAT'S WHAT</h2>
+            <h1>I LIKE</h1>
+            <p>Lorem ipsum dolor sit amet consectetur. Blandit pulvinar vulputate aliquet amet in consequat vulputate eu. Nisi varius semper sagittis sit vitae sit ipsum nulla. Nunc convallis volutpat nisl eget. Mattis odio sed interdum amet pellentesque.
+            </p>
+            <a href="" class="btn">View All Products</a>
+        </div>
+        <div>
+            <img src="pepsi001.png" alt="">
+        </div>
+        <div class="coluna">
+            <img src="ri-facebook-fill.svg" alt="">
+            <img src="ri-twitter-fill.svg" alt="">
+            <img src="ri-instagram-fill.svg" alt="">
+        </div>
+    </section>
+    <article class="pepsinhas">
+        <img src="pepsi001.png" alt="não sei" class="azul">
+        <img src="pepsi002.png" alt="adivinha" class="prata">
+        <img src="pepsi003.png" alt="sei la" class="preto">
+    </article>
+    <script>
+        let pepsiazul= document.querySelector(".azul");
+        let pepsipreta= document.querySelector(".preto");
+        let pepsiprata=document.querySelector(".prata");
+
+        pepsiazul.addEventListener("click", function(){
+            document.querySelector("body").classList.remove("bgblue");
+            document.querySelector("body").classList.remove("bgred");
+            document.querySelector("body").classList.remove("bgblack");
+            document.querySelector("body").classList.add("bgblue");
+        });
+        pepsipreta.addEventListener("click", function(){
+            document.querySelector("body").classList.remove("bgblue");
+            document.querySelector("body").classList.remove("bgred");
+            document.querySelector("body").classList.remove("bgblack");
+            document.querySelector("body").classList.add("bgblack");
+        });
+        pepsiprata.addEventListener("click", function(){
+            document.querySelector("body").classList.remove("bgblue");
+            document.querySelector("body").classList.remove("bgred");
+            document.querySelector("body").classList.remove("bgblack");
+            document.querySelector("body").classList.add("bgred");
+        });
+    </script>
+</body>
+</html>

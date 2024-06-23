@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    
+}
+
+body{
+    background-color: #0261BF ;
+    transition: 0.5s;
+}
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 41px 0;   
+    max-width: 1216px;
+    margin: 0 auto;
+
+  
+    
+}
+
+.menu{
+    display:flex;
+   
+}
+.linkmenu{
+    margin-right: 52px;
+    font-size: 16px;
+    transition: 0.8s;
+}
+
+
+.linkmenu:hover{
+    transform: scale(105%);
+}
+
+.logo img{
+max-width: 58px;
+}
+
+
+
+h2{
+    font-size: 80px;
+    font-weight: bolder;
+    
+  
+}
+
+h1{
+    font-size: 150px;
+    font-weight: bolder;
+    
+    margin-top: -28px;
+   
+}
+
+
+ section{
+display: flex;
+justify-content: space-between;
+max-width: 1216px;
+margin: 0 auto;
+
+height: 70vh;
+align-items: center;
+
+   }
+   p{
+    max-width: 580px;
+    font-size: 18px;
+    opacity: 70%;
+   }
+
+   .btn{
+   
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 24px 58px;
+    border-radius: 90px;
+    margin-top: 27px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+   }
+
+   .btn:hover{
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.3);
+    transform: scale(105%);
+}
+.pepsinhas {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+      
+}
+
+.pepsinhas img{
+    max-width: 47px;
+    margin-right: 42px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.pepsinhas img:hover{
+transform: translate3d(0, -10px, 0);
+}
+
+.coluna{
+    width: 31px;
+}
+@media screen and (max-width: 900px) {
+   .coluna {
+    display: none;
+   }
+}
+.coluna img {
+    width: 100%;
+    display: block;
+    margin-bottom: 32px;
+    transition: 0.3s;
+}
+.coluna img:hover{
+    transform: scale(120%);
+    filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.3));
+}
+
+.bgblack{
+    background-color: black;
+}
+.bgblue{
+    background-color: #0261BF;
+}
+.bgred{
+    background-color: #C72020;
+}
